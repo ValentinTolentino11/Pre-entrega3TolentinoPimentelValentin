@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nombre": "alimentoPuppy",
+      "precio": 15700,
+      "imagen": "./img/excellent-puppy.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "alimentoAdulto",
+      "precio": 14700,
+      "imagen": "./img/excellent-adulto.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "bebedero",
+      "precio": 4700,
+      "imagen": "./img/bebedero-comedero.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "bandejaSanitaria",
+      "precio": 8700,
+      "imagen": "./img/bandeja-sanitaria.png"
+    }
+]

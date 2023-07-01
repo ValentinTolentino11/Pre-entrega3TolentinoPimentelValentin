@@ -28,7 +28,7 @@ button {
 }
 
 /* Estilos de los productos */
-#lista-productos {
+.listado {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
