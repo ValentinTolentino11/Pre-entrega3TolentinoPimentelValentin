@@ -100,26 +100,27 @@
   <h2>Carrito</h2>
   <ul id="carrito-lista"></ul>
   <p id="total"></p>
-  <button onclick="vaciarCarrito()">Vaciar carrito</button>
+  <button onclick="vaciarCarrito()" id="vaciar-carrito">Vaciar carrito</button>
 
     <div class="aside">
       <h5>Registrate</h5>
       <form class="formulario">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Escribe tu email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required placeholder="Escribe tú nombre">
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Escribe tu contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required placeholder="Escribe tú mail">
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Validar</label>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="telefono" required placeholder="Ingrese su contraseña">
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
+      
+      
     </div>
 
   
